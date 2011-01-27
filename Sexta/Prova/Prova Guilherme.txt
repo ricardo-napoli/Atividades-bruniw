@@ -1,0 +1,37 @@
+1-Qual a diferença entre hardware e software?
+R:hardware é toda a parte que pode ser vista no computador (como placas etc) e software é a parte logica (com programas)
+
+2-Explique 4 componentes de hardware.
+r:Processador: é o cerebro da maquina usado para processa tudo o que passa pelo computador
+  HardDisk: é usado como memoria permanente ou seja é guardado ali todos os dados e ali permanecem ate serem apagados
+  Placa Mãe: é o que junta todos os componentes formando nossa cpu, tudo é conectado a ela	
+  Cooler: é o ventilador da maquina, utilizado para resfriar o dissipador e processador e outras peças
+
+3-Qual a função da BIOS?e qual seu significado.
+R:a BIOS é o que junta a parte logica (software) com a parte visualizavel, com as partes manuseaveis do PC (hardware)
+sistema basico de entrada e saida (basic input output system)
+
+4-Quais são as unidades de medidda da informática?
+R: Byte, kylobyte, megbyte, gigabyte
+
+5-O que são dispositivos de entrada, dispositivos de saida e entrada e saida?
+R: dispositivos de entrada: são todos os que passam informações ou outras coisas para o pc sem pegar nada de volta (teclado)
+   dispositivos de saida: são todos os que recebem informações do pc sem enviar nada de volta (monitor)
+   dispositivos de entrada e saida: são dispositivos que recebem e mandam informações (PenDrive)
+
+6-Qual a diferença entre CPU e gabinete?
+R: CPU: é formado pelo conjunto de peças (placa mãe, etc)
+   Gabinete: é a caixa que segura tudo 
+
+7-Qual a função da pasta termica
+R: pasta termica é isolante termico da maioria dos Hardware (segura a temperatura)
+
+8-Qual a diferença entre driver e drive?
+R: Driver: são programas que são instalados para o funcionamento de certos elementos
+   Drive: são Hardwares  (drive de cd) 
+
+9-Quais os principais tipos de placa de video?
+R:GFORCE, AGP, Nvidia
+
+10-Qual a importância do hardware no mercado de trabalho?
+R:a importancia de saber hardware no mercado de trabalho é grande pois sempre precisa de tecnicos para manutenção de micros em varios lugares, e também é um grande negocio pois da um grande lucro alem de você trabalhar por conta propria nunca faltara micros para serem concertados.

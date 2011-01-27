@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0034)http://www.playcenter.com.br/?id=7 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Playcenter - Sinônimo de Diversão - Familiar</title>
+	<meta http-equiv="pragma" content="no-cache">
+	
+	<meta name="rating" content="General">
+	<meta name="author" content="Ultrahaus">
+	<meta name="language" content="pt-br">
+	<meta name="ICBM" content="-23.522362,-46.661103">
+	<meta name="DC.title" content="Playcenter - Sinônimo de Diversão">
+	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta name="robots" content="all">
+<meta name="keywords" content="parque de diversões, são paulo, sp, brasil, playcenter, alegria, passaporte, replay, festa, excursões, diversão, família, educação, entretenimento, ">
+<meta name="description" content="Um parque que é sinônimo de diversão.. ">
+<link rel="stylesheet" type="text/css" href="./Playcenter - Sinônimo de Diversão - Familiar_files/playcenter.css">
+<link rel="stylesheet" type="text/css" href="./Playcenter - Sinônimo de Diversão - Familiar_files/atracoes.pagina.css">
+<script type="text/javascript">
+<!--
+//verifica se o navegador é Internet Explorer versão 6 ou anterior
+var browser = navigator.appName
+var ver = navigator.appVersion
+var thestart = parseFloat(ver.indexOf("MSIE"))+1
+var brow_ver = parseFloat(ver.substring(thestart+4,thestart+7))
+if ((browser=="Microsoft Internet Explorer") && (brow_ver < 7))
+{
+//se for redireciona para a página escolhida
+window.location="http://www.playcenter.com.br/index_ie6.html";
+}
+//-->
+</script>
+<script src="./Playcenter - Sinônimo de Diversão - Familiar_files/jquery-1.4.2.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://www.playcenter.com.br/DaVinci/site/playcenter/controllers/lavalamp.css">
+<link rel="stylesheet" href="http://www.playcenter.com.br/DaVinci/site/playcenter/controllers/colorbox/colorbox.css">
+<script type="text/javascript" src="./Playcenter - Sinônimo de Diversão - Familiar_files/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="./Playcenter - Sinônimo de Diversão - Familiar_files/jquery.colorbox.js"></script>
+<script type="text/javascript" src="./Playcenter - Sinônimo de Diversão - Familiar_files/jquery.easing.min.js"></script>
+<link rel="stylesheet" href="http://www.playcenter.com.br/DaVinci/site/playcenter/controllers/jquery-tooltip/jquery.tooltip.css">
+<script src="./Playcenter - Sinônimo de Diversão - Familiar_files/jquery.tooltip.js" type="text/javascript"></script>
+<script src="./Playcenter - Sinônimo de Diversão - Familiar_files/AC_RunActiveContent.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function AbrePopup(){
+	parent.$.fn.colorbox({html:'<a href=http://www.playcenter.com.br/?id=79><img src=banner_menor.jpg /></a>'});
+}
+
+$(function() {
+$('#principalMenu').lavaLamp({
+	fx: 'backout',
+	speed: 1000,
+});
+})
+//EFEITOS INICIAS//
+function iniciaElementos(){
+  	$('#footer').fadeIn('slow');
+  	$('#midias').fadeIn('slow');
+	$('#header ul').fadeIn('slow');
+	$('#abaLateral').animate({'margin-right': 0}, {duration: 'slow' });
+	setTimeout("$('#abaLateral').animate({'margin-right': '-'+220}, {duration: 'slow' });",2000);
+}
+function Play(){
+	$('#logoPlay').animate({'width': 124,'height': 130}, {duration: 'slow' });
+//	document.getElementById('#logoPlay').src='DaVinci/site/playcenter/interface/logo_playcenter.png';
+	setTimeout('iniciaElementos()',1000);
+}
+//FIM - EFEITOS INICIAS//
+
+//ESTILOS DOS BOXs DO FOOTER//
+var statusbox1;
+statusbox1=0;
+function AbreFechaBox1(){
+	if(statusbox1==0){
+		$('#content').animate({'height': 180}, {duration: 'slow' });
+		$('#content1').animate({'height': 180}, {duration: 'slow' });
+		$('#content2').animate({'height': 180}, {duration: 'slow' });
+		$('#content3').animate({'height': 180}, {duration: 'slow' });
+		$('#MenuLateral').animate({'height': 220}, {duration: 'slow' });
+		$('#img_calendario_top').animate({'src': 'DaVinci/site/playcenter/interface/seta_calendario_over.png'}, {duration: 'fast' });
+		$('#calendario_top').animate({'margin-top': 0}, {duration: 'slow' });
+		statusbox1=1;
+	}	
+	else{
+		if(statusbox2==1 || statusbox3==1){
+			$('#content').animate({'height': 180}, {duration: 'slow' });
+			$('#content1').animate({'height': 180}, {duration: 'slow' });
+			$('#content2').animate({'height': 180}, {duration: 'slow' });
+			$('#content3').animate({'height': 180}, {duration: 'slow' });
+			$('#MenuLateral').animate({'height': 220}, {duration: 'slow' });
+		}
+		else{
+			$('#content').animate({'height': 280}, {duration: 'slow' });
+			$('#content1').animate({'height': 280}, {duration: 'slow' });
+			$('#content2').animate({'height': 280}, {duration: 'slow' });
+			$('#content3').animate({'height': 280}, {duration: 'slow' });
+			$('#MenuLateral').animate({'height': 315}, {duration: 'slow' });
+		}
+		$('#img_calendario_top').animate({'src': 'DaVinci/site/playcenter/interface/seta_calendario.png'}, {duration: 'fast' });
+		$('#calendario_top').animate({'margin-top': 100}, {duration: 'slow' });
+		statusbox1 = 0;
+	}
+}
+var statusbox2;
+statusbox2=0;
+function AbreFechaBox2(){
+	if(statusbox2==0){
+		$('#content').animate({'height': 180}, {duration: 'slow' });
+		$('#content1').animate({'height': 180}, {duration: 'slow' });
+		$('#content2').animate({'height': 180}, {duration: 'slow' });
+		$('#content3').animate({'height': 180}, {duration: 'slow' });
+		$('#MenuLateral').animate({'height': 220}, {duration: 'slow' });
+		$('#precos_top').animate({'margin-top': 0}, {duration: 'slow' });
+		$('#img_precos_top').animate({'src': 'DaVinci/site/playcenter/interface/seta_precos_over.png'}, {duration: 'fast' });
+		statusbox2=1;
+	}	
+	else{
+		if(statusbox1==1 || statusbox3==1){
+			$('#content').animate({'height': 180}, {duration: 'slow' });
+			$('#content1').animate({'height': 180}, {duration: 'slow' });
+			$('#content2').animate({'height': 180}, {duration: 'slow' });
+			$('#content3').animate({'height': 180}, {duration: 'slow' });
+			$('#MenuLateral').animate({'height': 220}, {duration: 'slow' });
+		}
+		else{
+			$('#content').animate({'height': 280}, {duration: 'slow' });
+			$('#content1').animate({'height': 280}, {duration: 'slow' });
+			$('#content2').animate({'height': 280}, {duration: 'slow' });
+			$('#content3').animate({'height': 280}, {duration: 'slow' });
+			$('#MenuLateral').animate({'height': 315}, {duration: 'slow' });
+		}
+		$('#precos_top').animate({'margin-top': 100}, {duration: 'slow' });
+		$('#img_precos_top').animate({'src': 'DaVinci/site/playcenter/interface/seta_precos.png'}, {duration: 'fast' });
+		statusbox2 = 0;
+	}
+}
+var statusbox3;
+statusbox3=0;
+function AbreFechaBox3(){
+	if(statusbox3==0){
+		$('#content').animate({'height': 180}, {duration: 'slow' });
+		$('#content1').animate({'height': 180}, {duration: 'slow' });
+		$('#content2').animate({'height': 180}, {duration: 'slow' });
+		$('#content3').animate({'height': 180}, {duration: 'slow' });
+		$('#MenuLateral').animate({'height': 220}, {duration: 'slow' });
+		$('#eventos_top').animate({'margin-top': 0}, {duration: 'slow' });
+		$('#img_eventos_top').animate({'src': 'DaVinci/site/playcenter/interface/seta_eventos_over.png'}, {duration: 'fast' });
+		statusbox3=1;
+	}	
+	else{
+		if(statusbox1==1 || statusbox2==1){
+			$('#content').animate({'height': 180}, {duration: 'slow' });
+			$('#content1').animate({'height': 180}, {duration: 'slow' });
+			$('#content2').animate({'height': 180}, {duration: 'slow' });
+			$('#content3').animate({'height': 180}, {duration: 'slow' });
+			$('#MenuLateral').animate({'height': 220}, {duration: 'slow' });
+		}
+		else{
+			$('#content').animate({'height': 280}, {duration: 'slow' });
+			$('#content1').animate({'height': 280}, {duration: 'slow' });
+			$('#content2').animate({'height': 280}, {duration: 'slow' });
+			$('#content3').animate({'height': 280}, {duration: 'slow' });
+			$('#MenuLateral').animate({'height': 315}, {duration: 'slow' });
+		}
+		$('#eventos_top').animate({'margin-top': 100}, {duration: 'slow' });
+		$('#img_eventos_top').animate({'src': 'DaVinci/site/playcenter/interface/seta_eventos.png'}, {duration: 'fast' });
+		statusbox3 = 0;
+	}
+}
+//FIM - ESTILOS DOS BOXs DO FOOTER//
+//ABA LATERAL//
+var statusaba;
+statusaba=0;
+function AbreFechaAba(id){
+	if(statusaba==0){
+		$('#abaLateral').animate({'margin-right': 0}, {duration: 'slow' });
+		$('#setaAba').animate({'src': 'DaVinci/site/playcenter/interface/seta_aba_over.png'}, {duration: 'fast' });
+		statusaba=1;
+	}	
+	else{
+		$('#abaLateral').animate({'margin-right': '-'+800}, {duration: 'slow' });
+		$('#setaAba').animate({'src': 'DaVinci/site/playcenter/interface/seta_aba.png'}, {duration: 'fast' });
+		statusaba = 0;
+	}
+}
+//FIM - ABA LATERAL//
+
+</script>
+<link rel="stylesheet" type="text/css" href="./Playcenter - Sinônimo de Diversão - Familiar_files/cssDisplay.css"></head>
+<body scroll="no" style="width:100%; height:100%; overflow:hidden;"><div id="cboxOverlay" style="display: none; "></div><div id="colorbox" style="padding-bottom: 42px; padding-right: 42px; display: none; "><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left; "></div><div id="cboxTopCenter" style="float: left; "></div><div id="cboxTopRight" style="float: left; "></div></div><div><div id="cboxMiddleLeft" style="float: left; "></div><div id="cboxContent" style="float: left; "><div id="cboxLoadedContent" style="width: 0px; height: 0px; " class=""></div><div id="cboxLoadingOverlay" class=""></div><div id="cboxLoadingGraphic" class=""></div><div id="cboxTitle" class=""></div><div id="cboxCurrent" class=""></div><div id="cboxSlideshow" class=""></div><div id="cboxNext" class=""></div><div id="cboxPrevious" class=""></div><div id="cboxClose" class=""></div></div><div id="cboxMiddleRight" style="float: left; "></div></div><div><div id="cboxBottomLeft" style="float: left; "></div><div id="cboxBottomCenter" style="float: left; "></div><div id="cboxBottomRight" style="float: left; "></div></div></div><div style="position:absolute; top:0; left:0; width:9999px; height:0;"></div></div>
+<div id="header">
+  <a href="http://www.playcenter.com.br/index.php"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/logo_playcenter.png" alt="Playcenter" id="logoPlay"></a>
+    <div id="midias">
+    	<a href="http://twitter.com/playcenterbr" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100212042000original_midia2.png" alt="Twitter"></a><a href="http://www.facebook.com/pages/Sao-Paulo-Brazil/Playcenter/288758564745" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100212043839original_midia3.png" alt="Facebook"></a><a href="http://www.orkut.com.br/Main#Community?cmm=252940" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226054830original_icon_orkut.jpg" alt="Orkut"></a><a href="http://www.youtube.com/results?search_query=playcenter&search_type=&aq=f" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226054951original_YouTube_icon2.png" alt="YouTube"></a><a href="http://blog.playcenter.com.br/" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226055236original_blogger-icon.png" alt="Blog"></a>    </div>
+    <ul class="lavaLampWithImage" id="principalMenu">
+        <li id="item1"><a href="http://www.playcenter.com.br/?id=16">Sobre</a></li><li id="item2"><a href="http://www.playcenter.com.br/?id=29">Atrações</a></li><li id="item3"><a href="http://www.playcenter.com.br/?id=121">Virtual</a></li><li id="item4"><a href="http://www.playcenter.com.br/?id=12">Preços</a></li><li id="item23"><a href="http://www.playcenter.com.br/?id=88">Onde Comprar</a></li><li id="item5" class=""><a href="http://www.playcenter.com.br/?id=79">Calendário</a></li><li id="item6"><a href="http://www.playcenter.com.br/?id=10">Como Chegar</a></li><li id="item7"><a href="http://www.playcenter.com.br/?id=11">Contato</a></li>    </ul>
+	</div>
+<div id="abaLateral">
+        <div id="abaLateralAba">
+        	<a href="javascript:;" onclick="AbreFechaAba();"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/seta_aba.png" id="setaAba"></a>
+        </div>
+        <div id="abaLateralContent">
+			
+					<div class="banner_flash"><script type="text/javascript">
+				AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','387','height','356','src','DaVinci/site/playcenter/midia/100802054906100430073229banner_home_100430','quality','high','wmode','opaque','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','DaVinci/site/playcenter/midia/100802054906100430073229banner_home_100430' ); //end AC code
+				</script><embed width="387" height="356" src="DaVinci/site/playcenter/midia/100802054906100430073229banner_home_100430.swf" quality="high" wmode="opaque" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash"> <noscript>&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="387" height="356"&gt;
+					  &lt;param name="movie" value="DaVinci/site/playcenter/midia/100802054906100430073229banner_home_100430.swf"&gt;
+					  &lt;param name="quality" value="high"&gt;
+					  &lt;param name="wmode" value="opaque"&gt;
+					  &lt;embed src="DaVinci/site/playcenter/midia/100802054906100430073229banner_home_100430.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="387" height="356" wmode="opaque"&gt;&lt;/embed&gt;
+					&lt;/object&gt;</noscript></div>
+				<a href="http://e-vendas.playcenter.com.br/"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100601061046original_pontodevenda.png" alt="Onde Comprar"></a><a href="http://convidados.playcenter.com.br/"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100420063909original_cortesia.png" alt="Banner Cortesias"></a><a href="http://www.playcenter.com.br/?id=10"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100420063833original_transporte.png" alt="Banner Transporte"></a>            
+        </div>
+	</div>
+<a href="http://www.playcenter.com.br/" id="fechar_but"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/fechar_bg.png"></a>
+<script src="./Playcenter - Sinônimo de Diversão - Familiar_files/jquery-1.4.2.min.js" type="text/javascript"></script>
+<link href="./Playcenter - Sinônimo de Diversão - Familiar_files/mb.scrollable.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Playcenter - Sinônimo de Diversão - Familiar_files/mbScrollable.js"></script>
+<script type="text/javascript">
+$(function(){
+  $("#myScroll").mbScrollable({
+    width:650,
+    elementsInPage:2,
+    elementMargin:10,
+    shadow:"#000 0	px 0px 0px",
+    height:250,
+    controls:"#controls",
+    slideTimer:600,
+    autoscroll:true,
+    scrollTimer:4000
+  });
+});
+</script>
+<div id="MenuLateral">
+<a href="http://www.playcenter.com.br/?id=40"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226062459original_banner_radical.png" alt="Radical"></a><a href="./Playcenter - Sinônimo de Diversão - Familiar_files/Playcenter - Sinônimo de Diversão - Familiar.htm"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226062443original_banner_emocao.png" alt="Banner Emoção"></a><a href="http://www.playcenter.com.br/?id=41"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226062522original_banner_infantil.png" alt="Banner Infant"></a><ul id="menuSub"></ul></div>
+<div id="content">
+	<h2>Familiar</h2>
+    <div id="wrapper">
+        <div id="controls" style="display: block; ">
+          <div class="prev"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/seta_galeria.png"></div>
+          <div class="next disabled"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/seta_galeria2.png"></div>
+        </div>
+        <div id="myScroll" style="overflow-x: hidden; overflow-y: hidden; width: 650px; height: 250px; padding-bottom: 5px; position: relative; ">
+        	<div class="scrollableStrip" style="width: 3900px; position: relative; margin-left: -3250px; "><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=39"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226041829barca_viking_capa.jpg" width="300px"></a><div>Barca Viking</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=27"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226122708magic_motion_capa.jpg" width="300px"></a><div>Magic Motion</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=35"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226012854waimea_capa.jpg" width="300px"></a><div>Waimea</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=6"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100224062520foto_castelo.jpg" width="300px"></a><div>Castelo dos Horrores</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=26"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226122813autopista_capa.jpg" width="300px"></a><div>Autopista</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=31"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226011117parede_escalada_capa.jpg" width="300px"></a><div>Parede de Escalada</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=30"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226010737monga_capa.jpg" width="300px"></a><div>Monga</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=33"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100226012239rodeio_capa.jpg" width="300px"></a><div>Rodeio</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=82"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100316033515Splash_principal.jpg" width="300px"></a><div>Splash</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=81"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100318113137Crazy-House-1.jpg" width="300px"></a><div>Crazy House</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=83"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_100319101451img1.jpg" width="300px"></a><div>Arena Elástica</div></div></div><div class="SECont" style="margin-right: 10px; width: 315px; display: inline-block; float: left; "><div class="scrollEl"><a href="http://www.playcenter.com.br/?id=85"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/davinci_1003190254271.jpg" width="300px"></a><div>Bungy Trampolim</div></div></div></div>        </div>
+    </div>
+</div>	<div id="footer">
+
+	<div id="calendario">
+		<div class="seguraBox">
+            <div id="calendario_top">
+            <a href="javascript:;" onclick="AbreFechaBox1();"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/seta_calendario.png" id="img_calendario_top"></a>
+			             <p>Novembro/2010</p>
+            </div>
+            <div id="calendario_box">
+           <table border="0" summary="Calendário" class="calendario" cellpadding="0" cellspacing="0">
+                 <thead>
+                 <tr>
+                     <th abbr="Domingo">D</th>
+                     <th abbr="Segunda">S</th>
+                     <th abbr="Terça">T</th>
+                     <th abbr="Quarta">Q</th>
+                     <th abbr="Quinta">Q</th>
+                     <th abbr="Sexta">S</th>
+                     <th abbr="Sábado">S</th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr><td> </td><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">1</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">2</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">3</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">4</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">5</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">6</a></td></tr><tr><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">7</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">8</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">9</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">10</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">11</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">12</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">13</a></td></tr><tr><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">14</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">15</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">16</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">17</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">18</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">19</a></td><td class="dia_calen"><a title="&lt;strong&gt;Evento Exclusivo Planeta Terra&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#f76605;">20</a></td></tr><tr><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">21</a></td><td style="color:#d2d7d6;font-weight:bold;" class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">22</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">23</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">24</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">25</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">26</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque aberto das 11h ás 19h&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#4b25c7;">27</a></td></tr><tr><td class="dia_calen"><a title="&lt;strong&gt;Evento Exclusivo&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#f76605;">28</a></td><td class="dia_calen"><a title="&lt;strong&gt;Parque Fechado&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#ffffff;">29</a></td><td class="dia_calen"><a title="&lt;strong&gt;Aberto exclusivamente para excursões&lt;/strong&gt;&lt;p&gt;&lt;/p&gt;" href="http://www.playcenter.com.br/?id=23" style="font-weight:bold; color:#e62e9c;">30</a></td><td> </td><td> </td><td> </td><td> </td></tr>                 	<tr>
+                 		<td colspan="7" style="font:normal 9px arial; color:#fff;">*Passe o mouse sobre as datas</td>
+                 	</tr>
+                 </tbody>
+            </table>
+            </div>
+        </div>
+        <div id="calendario_baixo">
+        </div>
+        
+    </div>
+    
+    <div id="precos">
+		<div class="seguraBox">
+            <div id="precos_top">
+            <a href="javascript:;" onclick="AbreFechaBox2();"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/seta_precos.png" id="img_precos_top"></a>
+            <p></p>
+            </div>
+            
+            <div id="precos_box">
+            <h1>Bilheteria</h1>
+            <p>
+</p><p>Adulto............R$ 49,90<br>Infantil.........R$ 29,00</p><p></p>
+               <a href="http://www.playcenter.com.br/?id=12"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/botao_detalhes.png" alt="Detalhes"></a>
+    
+            </div>
+        </div>
+        <div id="precos_baixo">
+        </div>
+    
+    </div>
+    <div id="eventos">
+<!--    		<div class="seguraBox">
+            <div id="eventos_top">
+            <a href="javascript:;" onClick="AbreFechaBox3('eventos_top');"><img src="DaVinci/site/playcenter/interface/seta_eventos.png" id="img_eventos_top" /></a>
+           	<p>Especial</p>
+            </div>
+            <div id="eventos_box" style="padding:0 20px;">
+            	<p>Em Breve</p>            </div>
+        </div>
+       <div id="eventos_baixo">
+       </div>
+		-->    
+		<a href="http://www.playcenter.com.br/escolas/" target="_blank"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/banner-playescola.png" style="margin-top:97px;"></a>
+    </div>
+    
+    <div id="patrocinadores">
+        
+        <div id="patrocinadores_left">
+        </div>
+        
+        <div id="patrocinadores_box">
+    	<a href="http://www.sosmatatlantica.org.br/" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226052352original_patro_1.png" class="imagem_patro" alt="100226052352original_patro_1.png"></a><a href="http://www.cocacola.com.br/" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226052426original_coca_cola.png" class="imagem_patro" alt="100226052426original_coca_cola.png"></a><a href="http://www.nestle.com.br/site/home.aspx" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226052514original_nestle.png" class="imagem_patro" alt="100226052514original_nestle.png"></a><a href="http://www.sadia.com.br/" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226052542original_sadia.png" class="imagem_patro" alt="100226052542original_sadia.png"></a><a href="http://www.suvinil.com.br/" target="_blanck"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/100226052620original_suvinil.png" class="imagem_patro" alt="100226052620original_suvinil.png"></a>        </div>
+        
+        <div id="patrocinadores_right">
+        </div>
+    </div>
+
+</div>
+<script>
+//TOOL TIP CALENDAR//
+$('.dia_calen a').tooltip({
+	track: true,
+	delay: 0,
+	showURL: false,
+	showBody: " - ",
+	fade: 250
+});
+//FIM  - TOOL TIP CALENDAR//
+</script>
+<a href="http://ultrahaus.com/" id="assina_ultra" target="_blank"><img src="./Playcenter - Sinônimo de Diversão - Familiar_files/assina_ultra.png" alt="Ultrahaus.com"></a>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./Playcenter - Sinônimo de Diversão - Familiar_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-295695-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body></html>

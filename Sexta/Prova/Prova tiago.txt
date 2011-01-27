@@ -1,0 +1,40 @@
+1-Qual a diferença entre hardware e software?
+hardware é o conjunto de peças da cpu 
+software é a parte lógica do computador como programas etc...
+
+2-Explique  4 componentes de hardware. 
+placa mãe : é resposavel por conectar todas as peças do computador e faze-las funcionar adequadamente
+culer : é responsavel por resfriar o dissipador que resfriara  processador para que não atinja uma temperatuta que danifique o micro
+hd é a memória : permanente do microcomputador . tudo que voçê salvar , ficara guardado no hd
+processador : é o celebro do computador , serve para processar dados e envia-las para o monitor onde voçê possa vê-las 
+
+
+3-Qual a função da BIOS?e qual seu significado.
+é um tipo de memória armazenada na placa mãe que armazenan os indices de inicialização do computador e permite ligar o micro
+
+
+4-Quais são as unidades de medidda da informática?
+byte , megabyte e gigabyte
+
+5-O que são dispositivos de entrada, dispositivos de saida e entrada e saida?
+dispositivo de entrada : teclado , mouse , pen drive etc
+dispositivo de saida : monitor , webcan etc...
+dispositivo de entrada e saida : celulares , cameras digitais etc...
+
+6-Qual a diferença entre CPU e gabinete?
+cpu é conjunto de peças que ficam dentro do gabinete que nada mais é do que a parte metalica de fora da cpu
+
+7-Qual a função da pasta termica
+caso o culer junto com o dissipador não consiga resfriar o microcomputador na tempertura adequada , a pasta térmica diminuira a temperatura temporariamente
+
+8-Qual a diferença entre driver e drive?
+driver são os programas que precisam para que o microcomputador possa reconhecer o objeto conectado.
+e drive são os lugares de encaixar o : disquete , cds etc..
+
+9-Quais os principais tipos de placa de video?
+agp , gforci 
+
+10-Qual a importância do hardware no mercado de trabalho?
+Ajuda a se der algum problema na sua maquina , voçê mesmo pode concertar e tambem pode trabalhar com montagem e manutenção de computadores.
+e connhecer as peças do micro o ajudara muito o mercado de trabalho , porque por saber os nomes de peças podera as vezes indentificar um problema 
+de maquinas com mais facilidade.

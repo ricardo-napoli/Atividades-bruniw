@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> aula de html</title>
+</head>
+
+
+<bode bg color="#000000" linq="#ffffff"
+
+
+
+alinq='#ffff00" vlinq'"#fffff">
+
+
+
+<p align ="center">
+
+<font face="arial" size="6"color"#00ff00">
+
+<p> trabalho  com  fotos </b>
+
+<font>
+
+
+</p>
+
+
+
+<p>  aling= "center">
+
+

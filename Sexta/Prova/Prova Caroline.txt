@@ -1,0 +1,36 @@
+1-Qual a diferença entre hardware e software?
+Hardware é a parte física do computador(carcaça),o software é a parte lógica do computador.
+
+2-Explique 4 componentes de hardware.
+A Carcaça dos componentes: munitor,caixa do gabinete, teclado, caixa de som.
+
+3-Qual a função da BIOS?e qual seu significado.
+O significado da sigla BIOs é " Basioc Input Out Put System " e sua função é unir a parte física e lógica do computador.
+
+4-Quais são as unidades de medidda da informática?
+As unidades de medida são: Bit, Byte, Kilobyte, Megabyte,Gigabyte e Terabyte.
+
+5-O que são dispositivos de entrada, dispositivos de saida e entrada e saida?
+Dispositivos de entrada e dispositivos de saída são, drives usados para enviar ou transmitir dados do nosso computador.
+Exemplos de dispositivos de saída são: Teclado, caixa de som..
+E de dispositivos de entrada são: Pen Drive, CD, DVD..
+
+6-Qual a diferença entre CPU e gabinete?
+A CPU é o conjunto de peçasresponsaveis pela parte lógica do computador ,o gabinete é a caixa ou a carcaça que é utilizada
+para envolver todas as peças responsaveis pela parte lógica do computador.
+
+7-Qual a função da pasta termica
+A pasta térmica é utilizada como auxílio ao dissipador( uma das peças responsáveis pelo resfriamento do processador).
+A pasta térmica ajuda a manter a temperatura do dissipador, e por consequência a do processador.
+
+8-Qual a diferença entre driver e drive?
+Driver é o nome dado aos programas responsaveis pela pela abertura ou utilização (acesso) da peça.
+Drives são as peças ou máquinas. Exemplos: leitor e gravador de CD e DVD.
+
+9-Quais os principais tipos de placa de video?
+Alguns dos principais tipos de placas de Vídeo são: Geforce, Nvidia Geforce,ATI Radeon, entre outros.
+
+10-Qual a importância do hardware no mercado de trabalho?
+Por se tratar da parte física do computador, o Hardware é de extrema importância quando se trata da parte estética do
+computador, pois grande parte dos consumidores não só buscam eficiência tecnológica, mas também uma boa aparencia
+do material de consumo.

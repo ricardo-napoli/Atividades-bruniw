@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <style>
+	body {
+background-color: #a3a5bc
+}
+
+#logo {
+  float: left;
+  display: block;
+  height: 100px;
+}
+
+#conteudo {
+  width: 624px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  background-image: url('logo.png');
+  background-repeat: no-repeat; 
+  border: 1px solid black;
+  text-align: center;
+}
+
+#cabecalho {
+  display: block;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  font-size: 2.5em;
+}
+
+#mensagem {
+  margin: auto;
+}
+
+#mensagem p{
+  font-family: Arial;
+  margin-top: 30px;
+  font-size: 18px; 
+}
+</style>
+    <title>Pagina bloqueada!</title>
+  </head>
+  
+  <body>
+  
+    <div id="conteudo">
+      <h1 id="cabecalho">
+        PÁGINA BLOQUEADA
+      </h1>
+      
+      <div id="mensagem">
+        <p>O acesso à pagina "http://www.playcenter.com.br/DaVinci/site/playcenter/midia/100226054830original_icon_orkut.jpg" foi <b>bloqueado</b> pela administração da escola, pois seu conteúdo foi considerado impróprio ao ambiente escolar.<br> O acesso à mesma é liberado às sextas-feiras.</p>
+        <p>Caso considere o bloqueio desnecessário ou incorreto, favor entrar em contato com a coordenação. </p> 
+      </div>
+    </div>
+  </body>
+</html>
+
+<BR clear="all">
+<HR noshade size="1px">
+<ADDRESS>
+Generated Mon, 22 Nov 2010 18:57:48 GMT by starserv (squid/2.7.STABLE8)
+</ADDRESS>
+</BODY></HTML>
